@@ -1,0 +1,40 @@
+header {
+    float: right;
+}
+
+#logo {
+    background-image: url(images/Logo.jpg);
+    height: 120px;
+    top: calc(50% - 300px/2);
+    left: calc(50% - 300px/2);
+    position: absolute;
+    width: 300px;    
+}
+
+#fakebox {
+    border: 1px gray solid;
+    border-radius: 30px;
+    height: 50px;
+    top: calc(50% - 10px/2);
+    left: calc(50% - 500px/2);
+    position: absolute;
+    width: 500px;
+}
+
+#fakebox2 {
+    padding: 5px 10px;
+    border: none;
+    height: 40px;
+    width: 480px;
+}
+
+
+input {
+    border: white;
+    margin-top: 5px;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    font-size: 20px;
+    color: lightgray;
+    height: 30px;
+    width: 420px;
+}
